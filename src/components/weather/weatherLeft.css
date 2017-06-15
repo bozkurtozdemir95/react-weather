@@ -1,0 +1,54 @@
+body{
+    background: url(../../bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.left{
+    margin-top: 100px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 22px;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-shadow: 0px 4px 10px rgba(0,0,0,0.5);
+}
+.temperature{
+    font-size: 72px;
+    font-weight: bold;
+}
+.description{
+    text-transform: capitalize;
+    color: #dff1f3;
+}
+.clear{
+    width: 300px;
+    height: 300px;
+    background-size: 100%;
+}
+.otherProps {
+    margin-top: 100px;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-shadow: 0px 4px 10px rgba(0,0,0,0.5);
+    background: rgba(0,0,0,0.1);
+}
+.others {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 33%;
+    height: 100%;
+    border: 1px solid rgba(0,0,0,0.1);
+    padding: 10px;
+}
+.others span:nth-child(2) {
+    font-size: 17px;
+}

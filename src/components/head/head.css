@@ -1,0 +1,26 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    align-items: center;
+}
+.header input{
+    background: transparent;
+    border: none;
+    height: 30px;
+    margin: 5px;
+    border: 1px solid white;
+    color: white;
+    padding: 5px;
+    font-size: 1.5em;
+    text-align: center;
+}
+.header input::placeholder{
+    color: white;
+}
+.header input:focus, .header input:active, .header input:visited{
+    outline: none;
+}
+.header h1{
+    font-size: 20px;
+}

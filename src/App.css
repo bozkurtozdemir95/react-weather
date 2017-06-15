@@ -1,0 +1,11 @@
+.App {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+}
+.content {
+    display: flex;
+    flex-direction: row;
+}
