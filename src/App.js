@@ -23,6 +23,7 @@ class App extends Component {
     }
 
     this.getData = debounce(this.getData.bind(this), 500);
+
   }
     
     componentDidMount(){   
@@ -30,11 +31,11 @@ class App extends Component {
       navigator.geolocation.getCurrentPosition(function(pos){
         that.getData(pos.coords);
       });
-    }
 
+    }
     handleChange(event) {
         this.setState({cityId: event.target.value});
-        this.getData();         
+        this.getData();       
     } 
     
     isNight(str){
