@@ -3,6 +3,7 @@
     justify-content: space-between;
     padding: 0 20px;
     align-items: center;
+    text-shadow: 0px 4px 10px rgba(0,0,0,0.5);
 }
 .header input{
     background: transparent;
@@ -23,4 +24,12 @@
 }
 .header h1{
     font-size: 20px;
+}
+.country{
+    display: flex;
+    flex-direction: column;
+}
+.country span{
+    font-size: 16px;
+    color: #dff1f3;
 }
