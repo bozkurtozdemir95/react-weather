@@ -17,13 +17,13 @@ export default class WeatherRight extends React.Component{
             return <div className="forecastElem" key={'hourly' + index}>
                          {status.dt_txt}
                          <div className="wind">
-                             <img className="wind-img" src={process.env.PUBLIC_URL + "./img/wind.png"} alt=""/>
+                             <img className="wind-img" src={process.env.PUBLIC_URL + "img/wind.png"} alt=""/>
                              <span className="windSpeed">{(status.wind.speed * 1.609344).toFixed(1)}km/s</span>
                          </div> 
 
                          <div className="forecastTemp">
                               <span>{status.main.temp.toFixed(1)}°</span>    
-                              <img className="forecast-img" src={process.env.PUBLIC_URL + "./img/521d.png"} alt=""/>   
+                              <img className="forecast-img" src={process.env.PUBLIC_URL + "img/521d.png"} alt=""/>   
                         </div>
                            
                  </div>
