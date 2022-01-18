@@ -7,10 +7,10 @@ import axios from 'axios';
 import debounce from 'debounce';
 
 
-const dailyUrl = "http://api.openweathermap.org/data/2.5/weather?q={CITY}&mode=json&units=metric&appid=1bcaf5233e558eb347604045a313d1bc&lang=tr";
-const forecastUrl = "http://api.openweathermap.org/data/2.5/forecast?q={CITY}&mode=json&units=metric&appid=1bcaf5233e558eb347604045a313d1bc&lang=tr";
-const geoDailyUrl = "http://api.openweathermap.org/data/2.5/weather?mode=json&units=metric&appid=1bcaf5233e558eb347604045a313d1bc&lang=tr&lat={LAT}&lon={LON}"
-const geoForecastUrl = "http://api.openweathermap.org/data/2.5/forecast?mode=json&units=metric&appid=1bcaf5233e558eb347604045a313d1bc&lang=tr&lat={LAT}&lon={LON}"
+const dailyUrl = "https://api.openweathermap.org/data/2.5/weather?q={CITY}&mode=json&units=metric&APPID=840b001ff8f9fdf61e65d999355c488c&lang=tr";
+const forecastUrl = "https://api.openweathermap.org/data/2.5/forecast?q={CITY}&mode=json&units=metric&APPID=840b001ff8f9fdf61e65d999355c488c&lang=tr";
+const geoDailyUrl = "https://api.openweathermap.org/data/2.5/weather?mode=json&units=metric&APPID=840b001ff8f9fdf61e65d999355c488c&lang=tr&lat={LAT}&lon={LON}"
+const geoForecastUrl = "https://api.openweathermap.org/data/2.5/forecast?mode=json&units=metric&APPID=840b001ff8f9fdf61e65d999355c488c&lang=tr&lat={LAT}&lon={LON}"
 
 class App extends Component {
   constructor(){
